@@ -1,6 +1,7 @@
 const path = require('path');
 
 const config = {
+  mode: process.env.NODE_ENV,
   target: 'node',
   entry: [
     './src/index.js',
@@ -28,14 +29,11 @@ const config = {
           {
             loader: "css-loader",
             options: {
-              // modules: true,
-              // importLoaders: 2,
               alias: {
                 "flexbox": "flexboxgrid/dist/flexboxgrid.css"
               }
             }
           },
-          // 'postcss-loader'
         ]
       }
     ]

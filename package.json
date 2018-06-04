@@ -1,38 +1,34 @@
 {
-  "name": "state-grid",
+  "name": "gridorious",
   "version": "1.0.0",
-  "description": "",
+  "description": "CSS grid exposed as a function to be used in CSS Modules",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "cross-env NODE_ENV=production ./node_modules/.bin/webpack"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "keywords": [
+    "grid",
+    "css-in-js",
+    "flebox-grid"
+  ],
+  "author": "Kostas Bariotis <konmpar@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
     "@babel/core": "^7.0.0-beta.49",
     "@babel/preset-env": "^7.0.0-beta.49",
-    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.0.1",
     "babel-loader": "^8.0.0-beta.3",
+    "cross-env": "^5.1.6",
+    "css-loader": "^0.28.11",
     "cssnano": "^3.10.0",
     "flexboxgrid": "^6.3.1",
-    "identity-obj-proxy": "^3.0.0",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-import": "^11.1.0",
+    "jest": "^23.1.0",
     "postcss-js": "^1.0.1",
-    "postcss-syntax": "^0.26.1",
     "regenerator-runtime": "^0.11.1",
-    "style-loader": "^0.21.0",
-    "sugarss": "^1.0.1",
     "webpack": "^4.10.2",
     "webpack-cli": "^3.0.1",
     "yarn": "^1.7.0"
-  },
-  "devDependencies": {
-    "css-loader": "^0.28.11",
-    "jest": "^23.1.0",
-    "postcss-loader": "^2.1.5"
   },
   "jest": {
     "transform": {},

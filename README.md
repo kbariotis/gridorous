@@ -1,9 +1,9 @@
-# Gritorous
+# Gridorous
 
 > CSS grid exposed as a function to be used in CSS Modules
 
 ## Brief
-Gritorous provides a set of functions based on the [Flexboxgrid.com](http://flexboxgrid.com/)
+Gridorous provides a set of functions based on the [Flexboxgrid.com](http://flexboxgrid.com/)
 than can be used to generate CSS-in-JS objects to be parsed by [glamor](https://github.com/threepointone/glamor)
 and possibly other libraries.
 

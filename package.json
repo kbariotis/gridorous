@@ -1,5 +1,5 @@
 {
-  "name": "gridorious",
+  "name": "gridorous",
   "version": "1.0.0",
   "description": "CSS grid exposed as a function to be used in CSS Modules",
   "main": "index.js",

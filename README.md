@@ -17,10 +17,10 @@ const {css} = require('glamor');
 module.exports = function () {
   return (
     <div className={css(makeRow())}>
-      <div className={css(makeRow(6))}>
+      <div className={css(makeColXs(6))}>
         Left side
       </div>
-      <div className={css(makeRow(6))}>
+      <div className={css(makeColXs(6))}>
         Right side
       </div>
     </div>
